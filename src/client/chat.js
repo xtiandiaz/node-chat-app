@@ -1,4 +1,4 @@
-const socket = require('socket.io-client')('http://localhost:3000')
+const socket = require('socket.io-client')()
 const mustache = require('mustache')
 
 import Qs from 'qs'
